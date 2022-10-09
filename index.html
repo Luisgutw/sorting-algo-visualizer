@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Luis Gutwein" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sorting Algorithms</title>
+  </head>
+  <body>
+  <div class="buttons_container">
+    <label for="lengthslider">Array Size:</label>
+    <input
+            type="range"
+            id="lengthslider"
+            min="50"
+            max="100"
+            step="2"
+            value="75"
+    />
+    <label for="speedslider">Speed:</label>
+    <input
+            type="range"
+            id="speedslider"
+            min="5"
+            max="500"
+            step="5"
+            value="70"
+    />
+    <button id="randomize_array_btn">Randomize Array</button>
+    <button id="bubblesort_btn">BubbleSort</button>
+    <button id="selectionsort_btn">SelectionSort</button>
+    <button id="quicksort_btn">QuickSort</button>
+    <button id="stop_btn">Stop!</button>
+  </div>
+  <div class="container">
+      <div class="bars_container" id="bars_container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
